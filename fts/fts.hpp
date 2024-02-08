@@ -6,10 +6,7 @@
 #include <cstdint>
 
 extern "C" {
-    /**
-     * @brief A structure containing all attributes of a FloweyTale save file.
-     * 
-     */
+    // Save struct, containing all player data.
     struct __declspec(dllexport) FTSLib_Save {
     public:
         std::string        character_name;
