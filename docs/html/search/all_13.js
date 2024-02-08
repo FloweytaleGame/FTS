@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_0',['y',['../struct_f_t_s_lib___save.html#a2b439cd5eddf76ac9eceac81b91b4a8a',1,'FTSLib_Save']]]
+  ['windows_0',['Windows',['../index.html#autotoc_md6',1,'Compiling a binary (not on Windows)'],['../index.html#autotoc_md5',1,'Compiling a binary (script only made for Windows)'],['../index.html#autotoc_md4',1,'Using pre-compiled binaries (for now, only compiled on Windows)']]]
 ];

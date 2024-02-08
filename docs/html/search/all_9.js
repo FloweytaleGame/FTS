@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['license_0',['License',['../index.html#autotoc_md7',1,'']]],
-  ['love_1',['love',['../struct_f_t_s_lib___save.html#a93263039b1e810ff527bd2aa98a5f2a4',1,'FTSLib_Save']]]
+  ['installation_0',['Installation',['../index.html#autotoc_md2',1,'']]],
+  ['inv_1',['inv',['../struct_f_t_s_lib___save.html#ac980339ccc1acd1f4d495e18eb3cdef1',1,'FTSLib_Save']]]
 ];

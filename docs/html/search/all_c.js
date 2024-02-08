@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['on_20windows_0',['On Windows',['../index.html#autotoc_md6',1,'Compiling a binary (not on Windows)'],['../index.html#autotoc_md4',1,'Using pre-compiled binaries (for now, only compiled on Windows)']]],
-  ['only_20compiled_20on_20windows_1',['Using pre-compiled binaries (for now, only compiled on Windows)',['../index.html#autotoc_md4',1,'']]],
-  ['only_20made_20for_20windows_2',['Compiling a binary (script only made for Windows)',['../index.html#autotoc_md5',1,'']]]
+  ['made_20for_20windows_0',['Compiling a binary (script only made for Windows)',['../index.html#autotoc_md5',1,'']]],
+  ['max_5fhp_1',['max_hp',['../struct_f_t_s_lib___save.html#ad0d393bd3a154e182b7139ca07849fde',1,'FTSLib_Save']]],
+  ['murder_5flevel_2',['murder_level',['../struct_f_t_s_lib___save.html#a62376b529b918eef4807afdbf28c5ed0',1,'FTSLib_Save']]]
 ];

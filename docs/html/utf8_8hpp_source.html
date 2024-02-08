@@ -23,7 +23,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">FTSLib<span id="projectnumber">&#160;0.1.0</span>
+   <div id="projectname">FTSLib<span id="projectnumber">&#160;0.1.1</span>
    </div>
    <div id="projectbrief">A simple C++ library for decoding FTS (FloweyTaleSave) files.</div>
   </td>
@@ -91,23 +91,23 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;locale&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="}">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="utf8_8hpp.html#a5006a38b951e7c4c99de4b9717027297">   14</a></span><span class="keyword">inline</span> <span class="keywordtype">char32_t</span> <a class="code hl_function" href="utf8_8hpp.html#a5006a38b951e7c4c99de4b9717027297">chtocp</a>(std::string character) {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    std::wstring_convert&lt;std::codecvt_utf8&lt;char32_t&gt;, <span class="keywordtype">char32_t</span>&gt; converter;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordflow">return</span> converter.from_bytes(character)[0];</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}</div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="}">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="utf8_8hpp.html#a5006a38b951e7c4c99de4b9717027297">    8</a></span><span class="keyword">inline</span> <span class="keywordtype">char32_t</span> <a class="code hl_function" href="utf8_8hpp.html#a5006a38b951e7c4c99de4b9717027297">chtocp</a>(std::string character) {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    std::wstring_convert&lt;std::codecvt_utf8&lt;char32_t&gt;, <span class="keywordtype">char32_t</span>&gt; converter;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keywordflow">return</span> converter.from_bytes(character)[0];</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>}</div>
 </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="utf8_8hpp.html#a50339ac82eeb7bba9f4d63ed17abec99">   25</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="utf8_8hpp.html#a50339ac82eeb7bba9f4d63ed17abec99">cptoch</a>(<span class="keywordtype">char32_t</span> codepoint) {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    std::wstring_convert&lt;std::codecvt_utf8&lt;char32_t&gt;, <span class="keywordtype">char32_t</span>&gt; converter;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordflow">return</span> converter.to_bytes(&amp;codepoint, &amp;codepoint + 1);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>}</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="}">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="utf8_8hpp.html#a50339ac82eeb7bba9f4d63ed17abec99">   13</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="utf8_8hpp.html#a50339ac82eeb7bba9f4d63ed17abec99">cptoch</a>(<span class="keywordtype">char32_t</span> codepoint) {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    std::wstring_convert&lt;std::codecvt_utf8&lt;char32_t&gt;, <span class="keywordtype">char32_t</span>&gt; converter;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordflow">return</span> converter.to_bytes(&amp;codepoint, &amp;codepoint + 1);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>}</div>
 </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="autf8_8hpp_html_a5006a38b951e7c4c99de4b9717027297"><div class="ttname"><a href="utf8_8hpp.html#a5006a38b951e7c4c99de4b9717027297">chtocp</a></div><div class="ttdeci">char32_t chtocp(std::string character)</div><div class="ttdoc">Converts a UTF-8 character into a codepoint.</div><div class="ttdef"><b>Definition</b> utf8.hpp:14</div></div>
-<div class="ttc" id="autf8_8hpp_html_a50339ac82eeb7bba9f4d63ed17abec99"><div class="ttname"><a href="utf8_8hpp.html#a50339ac82eeb7bba9f4d63ed17abec99">cptoch</a></div><div class="ttdeci">std::string cptoch(char32_t codepoint)</div><div class="ttdoc">Converts a UTF-8 codepoint into a UTF-8 character.</div><div class="ttdef"><b>Definition</b> utf8.hpp:25</div></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="autf8_8hpp_html_a5006a38b951e7c4c99de4b9717027297"><div class="ttname"><a href="utf8_8hpp.html#a5006a38b951e7c4c99de4b9717027297">chtocp</a></div><div class="ttdeci">char32_t chtocp(std::string character)</div><div class="ttdef"><b>Definition</b> utf8.hpp:8</div></div>
+<div class="ttc" id="autf8_8hpp_html_a50339ac82eeb7bba9f4d63ed17abec99"><div class="ttname"><a href="utf8_8hpp.html#a50339ac82eeb7bba9f4d63ed17abec99">cptoch</a></div><div class="ttdeci">std::string cptoch(char32_t codepoint)</div><div class="ttdef"><b>Definition</b> utf8.hpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['not_20on_20windows_0',['Compiling a binary (not on Windows)',['../index.html#autotoc_md6',1,'']]],
-  ['now_20only_20compiled_20on_20windows_1',['Using pre-compiled binaries (for now, only compiled on Windows)',['../index.html#autotoc_md4',1,'']]]
+  ['license_0',['License',['../index.html#autotoc_md7',1,'']]],
+  ['love_1',['love',['../struct_f_t_s_lib___save.html#a93263039b1e810ff527bd2aa98a5f2a4',1,'FTSLib_Save']]]
 ];

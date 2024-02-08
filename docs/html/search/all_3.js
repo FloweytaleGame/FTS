@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['df_0',['df',['../struct_f_t_s_lib___save.html#abba4b87d9b2a5327181cdf441bf474fb',1,'FTSLib_Save']]],
-  ['documentation_1',['Documentation',['../index.html#autotoc_md1',1,'']]]
+  ['binaries_20for_20now_20only_20compiled_20on_20windows_0',['Using pre-compiled binaries (for now, only compiled on Windows)',['../index.html#autotoc_md4',1,'']]],
+  ['binary_20not_20on_20windows_1',['Compiling a binary (not on Windows)',['../index.html#autotoc_md6',1,'']]],
+  ['binary_20script_20only_20made_20for_20windows_2',['Compiling a binary (script only made for Windows)',['../index.html#autotoc_md5',1,'']]],
+  ['bindings_3',['Bindings',['../index.html#autotoc_md3',1,'']]]
 ];

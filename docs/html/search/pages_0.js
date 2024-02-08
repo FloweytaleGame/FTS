@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['fts_20ftslib_0',['FTS/FTSLib',['../index.html',1,'']]],
-  ['ftslib_1',['FTS/FTSLib',['../index.html',1,'']]]
+  ['0_201_201_0',['FTS/FTSLib 0.1.1',['../index.html',1,'']]]
 ];
