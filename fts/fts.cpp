@@ -11,6 +11,7 @@
 /**
  * Constructs an FTSLib save from the save file as a string.
  * 
+ * @fn FTSLib_Save FTSLib_decode_file(std::string file_content)
  * @param file_content String of the raw save file that will be decoded.
  * @return Save decoded from the raw save file.
 */
@@ -54,6 +55,12 @@ extern "C" __declspec(dllexport) FTSLib_Save FTSLib_decode_file(std::string file
     return save;
 }
 
+/**
+ * Constructs an encoded save string from the save object.
+ * 
+ * @param save Save that will be encoded.
+ * @return Raw save string encoded from the save object.
+*/
 extern "C" __declspec(dllexport) std::string FTSLib_encode_file(FTSLib_Save save) {
     // will store all attributrs
     std::vector<std::string> attributes;
