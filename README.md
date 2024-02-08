@@ -6,7 +6,7 @@ A simple C++ library for decoding FTS (FloweyTaleSave) files.
 
 ## Documentation
 
-All [documentation](https://FloweytaleGame.github.io/fts/html) is available here: https://FloweytaleGame.github.io/fts/html
+All [documentation](https://FloweytaleGame.github.io/FTS/html) is available here: https://FloweytaleGame.github.io/FTS/html
 
 Here, the documentation is all for the C++ core library, but any function and functioning is appliable with any binding.
 
